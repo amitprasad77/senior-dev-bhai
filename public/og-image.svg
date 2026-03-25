@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- background -->
+  <rect width="1200" height="630" fill="#0d0d0d"/>
+
+  <!-- subtle grid lines -->
+  <line x1="0" y1="210" x2="1200" y2="210" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="0" y1="420" x2="1200" y2="420" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="630" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="630" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- orange glow blob -->
+  <ellipse cx="600" cy="315" rx="340" ry="200" fill="#c0622a" opacity="0.07"/>
+
+  <!-- donut logo -->
+  <g transform="translate(530, 100)">
+    <circle cx="70" cy="70" r="55" fill="#2a1a0e" stroke="#c0622a" stroke-width="3"/>
+    <circle cx="70" cy="70" r="22" fill="#0d0d0d"/>
+    <path d="M15 70 A55 55 0 1 0 115 35 L100 45 A40 40 0 1 1 30 70 Z" fill="#e8855a" opacity="0.9"/>
+    <rect x="45" y="50" width="10" height="5" rx="2" fill="#f9e04b" transform="rotate(-30 45 50)"/>
+    <rect x="75" y="80" width="10" height="5" rx="2" fill="#7ed6a0" transform="rotate(20 75 80)"/>
+    <rect x="55" y="85" width="8" height="5" rx="2" fill="#f97bbd" transform="rotate(-10 55 85)"/>
+    <rect x="85" y="55" width="8" height="5" rx="2" fill="#7ec8f9" transform="rotate(40 85 55)"/>
+    <polygon points="110,25 125,15 135,35 125,50 110,40" fill="#0d0d0d"/>
+    <circle cx="130" cy="55" r="4" fill="#c0622a" opacity="0.7"/>
+    <circle cx="138" cy="42" r="2.5" fill="#e8855a" opacity="0.6"/>
+  </g>
+
+  <!-- main title -->
+  <text x="600" y="310" font-family="'Segoe UI', system-ui, sans-serif" font-size="88" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="-2">Roast Dev</text>
+
+  <!-- subtitle -->
+  <text x="600" y="370" font-family="'Segoe UI', system-ui, sans-serif" font-size="28" fill="#888888" text-anchor="middle">AI-powered code roaster. No mercy. No sugarcoating.</text>
+
+  <!-- mode pills -->
+  <g transform="translate(170, 420)">
+    <!-- pill 1 -->
+    <rect x="0" y="0" width="130" height="38" rx="19" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="1"/>
+    <text x="65" y="25" font-family="'Segoe UI', sans-serif" font-size="16" fill="#aaaaaa" text-anchor="middle">🔥 Hinglish</text>
+    <!-- pill 2 -->
+    <rect x="145" y="0" width="150" height="38" rx="19" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="1"/>
+    <text x="220" y="25" font-family="'Segoe UI', sans-serif" font-size="16" fill="#aaaaaa" text-anchor="middle">👴 Desi Uncle</text>
+    <!-- pill 3 -->
+    <rect x="310" y="0" width="165" height="38" rx="19" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="1"/>
+    <text x="392" y="25" font-family="'Segoe UI', sans-serif" font-size="16" fill="#aaaaaa" text-anchor="middle">🌾 Bihari Bhaiya</text>
+    <!-- pill 4 -->
+    <rect x="490" y="0" width="165" height="38" rx="19" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="1"/>
+    <text x="572" y="25" font-family="'Segoe UI', sans-serif" font-size="16" fill="#aaaaaa" text-anchor="middle">😎 Mumbai Tapori</text>
+    <!-- pill 5 -->
+    <rect x="670" y="0" width="165" height="38" rx="19" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="1"/>
+    <text x="752" y="25" font-family="'Segoe UI', sans-serif" font-size="16" fill="#aaaaaa" text-anchor="middle">💼 Corporate Lodu</text>
+    <!-- pill 6 -->
+    <rect x="850" y="0" width="150" height="38" rx="19" fill="#1e1208" stroke="#c0622a" stroke-width="1"/>
+    <text x="925" y="25" font-family="'Segoe UI', sans-serif" font-size="16" fill="#e8855a" text-anchor="middle">🎭 Bengali Dada</text>
+  </g>
+
+  <!-- bottom bar -->
+  <rect x="0" y="580" width="1200" height="50" fill="#111111"/>
+  <text x="600" y="612" font-family="'Segoe UI', system-ui, sans-serif" font-size="18" fill="#444444" text-anchor="middle">roast-dev.netlify.app • Powered by Groq AI + Llama 3.3 70B • Free</text>
+</svg>
