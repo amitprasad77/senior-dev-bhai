@@ -4,7 +4,7 @@
 
 Paste your garbage. Get brutally roasted by **Lodu Manager** — powered by Groq + Llama 3.3 70B. 6 roast modes. No mercy. No sugarcoating. Pure dev shame. 🔥💀
 
-**Live:** [chodu-intern.netlify.app](https://chodu-intern.netlify.app)
+**Live:** [roast-dev.netlify.app](https://roast-dev.netlify.app)
 
 ---
 
@@ -89,7 +89,7 @@ npm run dev
 4. Site Settings → Environment Variables → add `GROQ_API_KEY`
 5. Deploy
 
-After deploy, update the canonical URL in `index.html` and `sitemap.xml` with your actual Netlify domain.
+After deploy, update the canonical URL in `index.html` and `sitemap.xml` with your actual Netlify domain — currently set to `roast-dev.netlify.app`.
 
 ## Environment Variables
 
